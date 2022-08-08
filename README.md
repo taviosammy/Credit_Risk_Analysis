@@ -61,4 +61,6 @@ Recall: 0.94
 
 
 
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+# Summary: 
+
+First thing to notice after analysing these models is that they all share the same precision score.  This means more they all are exceptional at confirming if a case is a true posivive when predicted.   They however have varying degrees of sensitivity(recall).    Between the Oversampling models and ensemble modles, ensemble proved to have higher sensitivity.  Easy Ensemble AdaBoost Classifier in particular had the highest sensitivity score of 0.94.  Having high sensitivity means more true positives vs false negative.  So using this model would limit the occurance of people with Low risk being labeled high risk.
